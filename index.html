@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6edf8" />
+    <meta
+      name="description"
+      content="Proslavimo zajedno 50. rođendan i novu godinu!"
+    />
+    <title>50. rođendan &amp; Nova godina</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+
+      <header class="intro">
+        <p class="eyebrow">DVA RAZLOGA ZA SLAVLJE</p>
+        <h1>50 godina<br /><span>i nova godina!</span></h1>
+        <p class="intro-copy">
+          Pola stoljeća uspomena, a nova godina tek počinje.<br />Dodirni
+          kuvertu i otkrij pozivnicu.
+        </p>
+      </header>
+
+      <section
+        class="invitation"
+        aria-label="Pozivnica za 50. rođendan i Novu godinu"
+      >
+        <button
+          class="envelope"
+          id="invitation-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="invitation-card"
+          aria-label="Otvori pozivnicu za 50. rođendan"
+        >
+          <span class="envelope-shadow" aria-hidden="true"></span>
+          <span class="envelope-back" aria-hidden="true"></span>
+          <span class="letter" aria-hidden="true">
+            <span class="letter-kicker">POZIVNICA</span>
+            <span class="letter-title">50 godina<br />za pamćenje!</span>
+            <span class="letter-sparkle">✳</span>
+          </span>
+          <span class="envelope-front" aria-hidden="true"></span>
+          <span class="envelope-flap" aria-hidden="true"></span>
+          <span class="seal" aria-hidden="true"><span>50</span></span>
+        </button>
+
+        <article
+          class="invitation-card"
+          id="invitation-card"
+          aria-hidden="true"
+          inert
+        >
+          <div class="card-top">
+            <span class="card-kicker">50. ROĐENDAN &amp; NOVA GODINA</span>
+            <div class="card-top-actions">
+              <span class="card-flower" aria-hidden="true">✳</span>
+              <button
+                class="card-close"
+                id="invitation-close"
+                type="button"
+                aria-label="Zatvori pozivnicu"
+              >
+                ×
+              </button>
+            </div>
+          </div>
+          <p class="card-hello">Dragi moji,</p>
+          <h2>Jubilej za pamćenje<br />i nova godina!</h2>
+          <p class="card-copy">
+            Moj 50. rođendan pada baš na prvi dan nove godine — zato slavimo
+            duplo! Dođi nazdraviti velikom jubileju i svemu lijepome što nas
+            čeka.
+          </p>
+
+          <div class="details">
+            <div class="detail">
+              <span class="detail-icon" aria-hidden="true">✳</span>
+              <div>
+                <span class="detail-label">KADA</span
+                ><strong>1. siječnja</strong
+                ><span class="detail-note">u 19 sati</span>
+              </div>
+            </div>
+            <div class="detail">
+              <span class="detail-icon" aria-hidden="true">⌖</span>
+              <div>
+                <span class="detail-label">GDJE</span
+                ><strong>Kod nas doma</strong
+                ><span class="detail-note">Osječka 14, Bokšić</span>
+              </div>
+            </div>
+          </div>
+
+          <p class="card-signoff">
+            Ponesi osmijeh — za tortu i novogodišnju zdravicu!
+          </p>
+          <p class="card-signature">Renata <span aria-hidden="true">♥</span></p>
+          <span class="card-confetti confetti-one" aria-hidden="true">✳</span>
+          <span class="card-confetti confetti-two" aria-hidden="true">✦</span>
+        </article>
+      </section>
+
+      <p class="hint" id="hint">
+        Dodirni kuvertu za iznenađenje <span aria-hidden="true">↓</span>
+      </p>
+      <footer>NAPRAVLJENO S LJUBAVLJU <span aria-hidden="true">♥</span></footer>
+    </main>
+  </body>
+</html>
